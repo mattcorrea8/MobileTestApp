@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.7.9 on win32)" generated="20220328 17:08:29.395" rpa="false" schemaversion="2">
+<suite id="s1" name="MobileTestScript Keyword Executor" source="C:\Users\MC5266.ZGN\PycharmProjects\zrs-qa-robot-smartcount\Tests\MobileTestScript_Keyword_Executor.robot">
+<test id="s1-t1" name="Verify Login Credentials">
+<kw name="Authenticate User" library="column_formatting_special">
+<var>${isValid}</var>
+<arg>${user}</arg>
+<arg>${pass}</arg>
+<msg timestamp="20220328 17:08:34.905" level="INFO">${isValid} = True</msg>
+<status status="PASS" starttime="20220328 17:08:33.192" endtime="20220328 17:08:34.905"/>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<arg>${isValid}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" starttime="20220328 17:08:34.906" endtime="20220328 17:08:34.906"/>
+</kw>
+<status status="PASS" starttime="20220328 17:08:33.191" endtime="20220328 17:08:34.907"/>
+</test>
+<doc>Executes keywords received from mobile test script template. Run from C# program.</doc>
+<status status="PASS" starttime="20220328 17:08:29.399" endtime="20220328 17:08:34.908"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="MobileTestScript Keyword Executor">MobileTestScript Keyword Executor</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220328 17:08:29.384" level="ERROR">Error in file 'C:\Users\MC5266.ZGN\PycharmProjects\zrs-qa-robot-smartcount\Tests\MobileTestScript_Keyword_Executor.robot' on line 21: Non-existing setting 'Arguments'.</msg>
+<msg timestamp="20220328 17:08:29.385" level="ERROR">Error in file 'C:\Users\MC5266.ZGN\PycharmProjects\zrs-qa-robot-smartcount\Tests\MobileTestScript_Keyword_Executor.robot' on line 37: Non-existing setting 'Arguments'.</msg>
+<msg timestamp="20220328 17:08:32.594" level="WARN">Imported library 'C:\Users\MC5266.ZGN\PycharmProjects\zrs-qa-robot-smartcount\Resources\Python\column_formatting.py' contains no keywords.</msg>
+</errors>
+</robot>
